@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import TasksScreen from './src/Screen/Tasks';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useState } from 'react';
