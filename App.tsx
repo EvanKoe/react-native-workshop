@@ -9,8 +9,13 @@ export default function App() {
 
   return (
     <SafeAreaView style={ {flex:1} }>
+      {/* In order to see the ToDo app, un comment the next line*/}
       {/* <TasksScreen /> */}
-      <Text onPress={() => setA(a + 1)}>Bonjour { a }</Text>
+
+      {/* and comment those ones (until </TouchableOpacity>) */}
+      <TouchableOpacity onPress={() => setA(a + 1)}>
+        <Text>Bonjour { a }</Text>
+      </TouchableOpacity>
     </SafeAreaView>
   );
 }
